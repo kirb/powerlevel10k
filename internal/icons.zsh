@@ -550,6 +550,252 @@ function _p9k_init_icons() {
         TOOLBOX_ICON                   '\uE20F'$s             # 
       )
     ;;
+    'sf-symbols-1')
+      icons=(
+        RULER_CHAR                     '─'               # \u2500
+        LEFT_SEGMENT_SEPARATOR         ''
+        RIGHT_SEGMENT_SEPARATOR        ''
+        LEFT_SEGMENT_END_SEPARATOR     ' '                    # Whitespace
+        LEFT_SUBSEGMENT_SEPARATOR      '􀆓' # \u100193
+        RIGHT_SUBSEGMENT_SEPARATOR     '􀆒' # \u100192
+        CARRIAGE_RETURN_ICON           '􀅇'$s
+        ROOT_ICON                      '􀞠'$s
+        SUDO_ICON                      '􀞠'$s
+        RUBY_ICON                      '􀀦'$s
+        AWS_ICON                       '􀀄'$s
+        AWS_EB_ICON                    '􀀆'$s
+        BACKGROUND_JOBS_ICON           '􀐫'$s
+        TEST_ICON                      '􀏋'$s
+        TODO_ICON                      '􀃲'$s
+        BATTERY_ICON                   '􀛨'$s
+        DISK_ICON                      '􀙗'$s
+        OK_ICON                        '􀆅'$s
+        FAIL_ICON                      '􀁞'$s
+        SYMFONY_ICON                   '􀀨'$s
+        NODE_ICON                      '􀝞'$s
+        NODEJS_ICON                    '􀝞'$s
+        MULTILINE_FIRST_PROMPT_PREFIX  '╭─'         # \u256D\U2500
+        MULTILINE_NEWLINE_PROMPT_PREFIX '├─'        # \u251C\U2500
+        MULTILINE_LAST_PROMPT_PREFIX   '╰─'        # \u2570\U2500
+        APPLE_ICON                     '􀙗'$s
+        WINDOWS_ICON                   '􀏜'$s
+        FREEBSD_ICON                   '􀀆'$s
+        ANDROID_ICON                   '􀀄'$s
+        LINUX_ICON                     '􀀚'$s
+        LINUX_ARCH_ICON                '􀀄'$s
+        LINUX_DEBIAN_ICON              '􀀊'$s
+        LINUX_RASPBIAN_ICON            '􀀦'$s
+        LINUX_UBUNTU_ICON              '􀀬'$s
+        LINUX_CENTOS_ICON              '􀖙'$s
+        LINUX_COREOS_ICON              '􀀈'$s
+        LINUX_ELEMENTARY_ICON          '􀀌'$s
+        LINUX_MINT_ICON                '􀀜'$s
+        LINUX_FEDORA_ICON              '􀀎'$s
+        LINUX_GENTOO_ICON              '􀀐'$s
+        LINUX_MAGEIA_ICON              '􀀜'$s
+        LINUX_NIXOS_ICON               '􀀞'$s
+        LINUX_MANJARO_ICON             '􀀜'$s
+        LINUX_DEVUAN_ICON              '􀀊'$s
+        LINUX_ALPINE_ICON              '􀀄'$s
+        LINUX_AOSC_ICON                '􀀄'$s
+        LINUX_OPENSUSE_ICON            '􀀨'$s
+        LINUX_SABAYON_ICON             '􀀨'$s
+        LINUX_SLACKWARE_ICON           '􀀨'$s
+        LINUX_VOID_ICON                '􀀮'$s
+        SUNOS_ICON                     '􀆭'$s
+        HOME_ICON                      '􀎞'$s
+        HOME_SUB_ICON                  '􀎞'$s
+        FOLDER_ICON                    '􀈕'$s
+        NETWORK_ICON                   '􀙇'$s
+        ETC_ICON                       '􀒖'$s
+        LOAD_ICON                      '􀐾'$s
+        SWAP_ICON                      '􀈽'$s
+        RAM_ICON                       '􀏡'$s
+        SERVER_ICON                    '􀇂'$s
+        VCS_UNTRACKED_ICON             '􀅍'$s
+        VCS_UNSTAGED_ICON              '􀈎'$s
+        VCS_STAGED_ICON                '􀋂'$s
+        VCS_STASH_ICON                 '􀈭'$s
+        VCS_INCOMING_CHANGES_ICON      '􀁹'$s
+        VCS_OUTGOING_CHANGES_ICON      '􀁷'$s
+        VCS_TAG_ICON                   '􀋡'$s$s
+        VCS_BOOKMARK_ICON              '􀉚'$s$s
+        VCS_COMMIT_ICON                '􀉣'$s$s
+        VCS_BRANCH_ICON                '􀉢'$s$s
+        VCS_REMOTE_BRANCH_ICON         '􀁼'$s
+        VCS_LOADING_ICON               ''
+        VCS_GIT_ICON                   ''
+        VCS_GIT_GITHUB_ICON            ''
+        VCS_GIT_BITBUCKET_ICON         ''
+        VCS_GIT_GITLAB_ICON            ''
+        VCS_HG_ICON                    ''
+        VCS_SVN_ICON                   ''
+        RUST_ICON                      '􀀦'$s
+        PYTHON_ICON                    '􀀢'$s
+        SWIFT_ICON                     '􀀨'$s
+        GO_ICON                        '􀀐'$s
+        GOLANG_ICON                    '􀀐'$s
+        PUBLIC_IP_ICON                 '􀈏'$s
+        LOCK_ICON                      '􀒲'$s
+        NORDVPN_ICON                   '􀒲'$s
+        EXECUTION_TIME_ICON            '􀐱'$s
+        SSH_ICON                       '􀂀'$s
+        VPN_ICON                       '􀒲'$s
+        KUBERNETES_ICON                '􀀘'$s
+        DROPBOX_ICON                   '􀐚'$s
+        DATE_ICON                      '􀐫'$s
+        TIME_ICON                      '􀐫'$s
+        JAVA_ICON                      '􀀖'$s
+        LARAVEL_ICON                   '􀀚'$s
+        RANGER_ICON                    '􀋅'$s
+        MIDNIGHT_COMMANDER_ICON        '􀀜'$s
+        VIM_ICON                       '􀀮'$s
+        TERRAFORM_ICON                 '􀀪'$s
+        PROXY_ICON                     '􀒲'$s
+        DOTNET_ICON                    '􀀞'$s
+        DOTNET_CORE_ICON               '􀀞'$s
+        AZURE_ICON                     '􀀄'$s
+        DIRENV_ICON                    '􀀊'$s
+        FLUTTER_ICON                   '􀀎'$s
+        GCLOUD_ICON                    '􀀐'$s
+        LUA_ICON                       '􀀚'$s
+        PERL_ICON                      '􀀢'$s
+        NNN_ICON                       '􀀞'$s
+        TIMEWARRIOR_ICON               '􀀪'$s
+        TASKWARRIOR_ICON               '􀀪'$s
+        NIX_SHELL_ICON                 '􀀞'$s
+        WIFI_ICON                      '􀙇'$s
+        ERLANG_ICON                    '􀀌'$s
+        ELIXIR_ICON                    '􀀌'$s
+        POSTGRES_ICON                  '􀀢'$s
+        PHP_ICON                       '􀀢'$s
+        HASKELL_ICON                   '􀀒'$s
+        PACKAGE_ICON                   '􀐚'$s
+      )
+    ;;
+    'sf-symbols')
+      icons=(
+        RULER_CHAR                     '─'               # \u2500
+        LEFT_SEGMENT_SEPARATOR         ''
+        RIGHT_SEGMENT_SEPARATOR        ''
+        LEFT_SEGMENT_END_SEPARATOR     ' '                    # Whitespace
+        LEFT_SUBSEGMENT_SEPARATOR      '􀆓' # \u100193
+        RIGHT_SUBSEGMENT_SEPARATOR     '􀆒' # \u100192
+        CARRIAGE_RETURN_ICON           '􀅇'$s
+        ROOT_ICON                      '􀞠'$s
+        SUDO_ICON                      '􀞠'$s
+        RUBY_ICON                      '􀀦'$s
+        AWS_ICON                       '􀀄'$s
+        AWS_EB_ICON                    '􀀆'$s
+        BACKGROUND_JOBS_ICON           '􀐫'$s
+        TEST_ICON                      '􀏋'$s
+        TODO_ICON                      '􀃲'$s
+        BATTERY_ICON                   '􀛨'$s
+        DISK_ICON                      '􀥾'$s
+        OK_ICON                        '􀆅'$s
+        FAIL_ICON                      '􀁞'$s
+        SYMFONY_ICON                   '􀀨'$s
+        NODE_ICON                      '􀝞'$s
+        NODEJS_ICON                    '􀝞'$s
+        MULTILINE_FIRST_PROMPT_PREFIX  '╭─'         # \u256D\U2500
+        MULTILINE_NEWLINE_PROMPT_PREFIX '├─'        # \u251C\U2500
+        MULTILINE_LAST_PROMPT_PREFIX   '╰─'        # \u2570\U2500
+        APPLE_ICON                     '􀣺'$s
+        WINDOWS_ICON                   '􀥺'$s
+        FREEBSD_ICON                   '􀀆'$s
+        ANDROID_ICON                   '􀀄'$s
+        LINUX_ICON                     '􀀚'$s
+        LINUX_ARCH_ICON                '􀀄'$s
+        LINUX_DEBIAN_ICON              '􀀊'$s
+        LINUX_RASPBIAN_ICON            '􀀦'$s
+        LINUX_UBUNTU_ICON              '􀀬'$s
+        LINUX_CENTOS_ICON              '􀖙'$s
+        LINUX_COREOS_ICON              '􀀈'$s
+        LINUX_ELEMENTARY_ICON          '􀀌'$s
+        LINUX_MINT_ICON                '􀀜'$s
+        LINUX_FEDORA_ICON              '􀀎'$s
+        LINUX_GENTOO_ICON              '􀀐'$s
+        LINUX_MAGEIA_ICON              '􀀜'$s
+        LINUX_NIXOS_ICON               '􀀞'$s
+        LINUX_MANJARO_ICON             '􀀜'$s
+        LINUX_DEVUAN_ICON              '􀀊'$s
+        LINUX_ALPINE_ICON              '􀀄'$s
+        LINUX_AOSC_ICON                '􀀄'$s
+        LINUX_OPENSUSE_ICON            '􀀨'$s
+        LINUX_SABAYON_ICON             '􀀨'$s
+        LINUX_SLACKWARE_ICON           '􀀨'$s
+        LINUX_VOID_ICON                '􀀮'$s
+        SUNOS_ICON                     '􀆭'$s
+        HOME_ICON                      '􀎞'$s
+        HOME_SUB_ICON                  '􀎞'$s
+        FOLDER_ICON                    '􀈕'$s
+        NETWORK_ICON                   '􀙇'$s
+        ETC_ICON                       '􀒖'$s
+        LOAD_ICON                      '􀐾'$s
+        SWAP_ICON                      '􀈽'$s
+        RAM_ICON                       '􀫦'$s
+        SERVER_ICON                    '􀨤'$s
+        VCS_UNTRACKED_ICON             '􀅍'$s
+        VCS_UNSTAGED_ICON              '􀈎'$s
+        VCS_STAGED_ICON                '􀋂'$s
+        VCS_STASH_ICON                 '􀈭'$s
+        VCS_INCOMING_CHANGES_ICON      '􀁹'$s
+        VCS_OUTGOING_CHANGES_ICON      '􀁷'$s
+        VCS_TAG_ICON                   '􀋡'$s$s
+        VCS_BOOKMARK_ICON              '􀉚'$s$s
+        VCS_COMMIT_ICON                '􀉣'$s$s
+        VCS_BRANCH_ICON                '􀉢'$s$s
+        VCS_REMOTE_BRANCH_ICON         '􀁼'$s
+        VCS_LOADING_ICON               ''
+        VCS_GIT_ICON                   ''
+        VCS_GIT_GITHUB_ICON            ''
+        VCS_GIT_BITBUCKET_ICON         ''
+        VCS_GIT_GITLAB_ICON            ''
+        VCS_HG_ICON                    ''
+        VCS_SVN_ICON                   ''
+        RUST_ICON                      '􀀦'$s
+        PYTHON_ICON                    '􀀢'$s
+        SWIFT_ICON                     '􀀨'$s
+        GO_ICON                        '􀀐'$s
+        GOLANG_ICON                    '􀀐'$s
+        PUBLIC_IP_ICON                 '􀤆'$s
+        LOCK_ICON                      '􀒲'$s
+        NORDVPN_ICON                   '􀒲'$s
+        EXECUTION_TIME_ICON            '􀐱'$s
+        SSH_ICON                       '􀂀'$s
+        VPN_ICON                       '􀒲'$s
+        KUBERNETES_ICON                '􀀘'$s
+        DROPBOX_ICON                   '􀐚'$s
+        DATE_ICON                      '􀐫'$s
+        TIME_ICON                      '􀐫'$s
+        JAVA_ICON                      '􀀖'$s
+        LARAVEL_ICON                   '􀀚'$s
+        RANGER_ICON                    '􀋅'$s
+        MIDNIGHT_COMMANDER_ICON        '􀀜'$s
+        VIM_ICON                       '􀀮'$s
+        TERRAFORM_ICON                 '􀀪'$s
+        PROXY_ICON                     '􀒲'$s
+        DOTNET_ICON                    '􀀞'$s
+        DOTNET_CORE_ICON               '􀀞'$s
+        AZURE_ICON                     '􀀄'$s
+        DIRENV_ICON                    '􀀊'$s
+        FLUTTER_ICON                   '􀀎'$s
+        GCLOUD_ICON                    '􀀐'$s
+        LUA_ICON                       '􀀚'$s
+        PERL_ICON                      '􀀢'$s
+        NNN_ICON                       '􀀞'$s
+        TIMEWARRIOR_ICON               '􀀪'$s
+        TASKWARRIOR_ICON               '􀀪'$s
+        NIX_SHELL_ICON                 '􀀞'$s
+        WIFI_ICON                      '􀙇'$s
+        ERLANG_ICON                    '􀀌'$s
+        ELIXIR_ICON                    '􀀌'$s
+        POSTGRES_ICON                  '􀀢'$s
+        PHP_ICON                       '􀀢'$s
+        HASKELL_ICON                   '􀀒'$s
+        PACKAGE_ICON                   '􀐚'$s
+      )
+    ;;
     ascii)
       icons=(
         RULER_CHAR                     '-'
