@@ -68,6 +68,7 @@ function _p9k_init_icons() {
         LINUX_SABAYON_ICON             '\uE271'$s             # 
         LINUX_SLACKWARE_ICON           '\uE271'$s             # 
         LINUX_VOID_ICON                '\uE271'$s             # 
+        LINUX_ARTIX_ICON               '\uE271'$s             # 
         SUNOS_ICON                     '\U1F31E'$q            # 🌞
         HOME_ICON                      '\uE12C'$s             # 
         HOME_SUB_ICON                  '\uE18D'$s             # 
@@ -131,6 +132,7 @@ function _p9k_init_icons() {
         LUA_ICON                       'lua'
         PERL_ICON                      'perl'
         NNN_ICON                       'nnn'
+        XPLR_ICON                      'xplr'
         TIMEWARRIOR_ICON               'tw'
         TASKWARRIOR_ICON               'task'
         NIX_SHELL_ICON                 'nix'
@@ -142,6 +144,7 @@ function _p9k_init_icons() {
         HASKELL_ICON                   'hs'
         PACKAGE_ICON                   'pkg'
         JULIA_ICON                     'jl'
+        SCALA_ICON                     'scala'
       )
     ;;
     'awesome-fontconfig')
@@ -198,6 +201,7 @@ function _p9k_init_icons() {
         LINUX_SABAYON_ICON             '\uF17C'$s             # 
         LINUX_SLACKWARE_ICON           '\uF17C'$s             # 
         LINUX_VOID_ICON                '\uF17C'$s             # 
+        LINUX_ARTIX_ICON               '\uF17C'$s             # 
         SUNOS_ICON                     '\uF185 '              # 
         HOME_ICON                      '\uF015'$s             # 
         HOME_SUB_ICON                  '\uF07C'$s             # 
@@ -236,7 +240,7 @@ function _p9k_init_icons() {
         NORDVPN_ICON                   '\UF023'               # 
         EXECUTION_TIME_ICON            '\uF253'$s             # 
         SSH_ICON                       'ssh'
-        VPN_ICON                       '\uF023' 
+        VPN_ICON                       '\uF023'
         KUBERNETES_ICON                '\U2388'               # ⎈
         DROPBOX_ICON                   '\UF16B'$s             # 
         DATE_ICON                      '\uF073 '              # 
@@ -257,6 +261,7 @@ function _p9k_init_icons() {
         LUA_ICON                       'lua'
         PERL_ICON                      'perl'
         NNN_ICON                       'nnn'
+        XPLR_ICON                      'xplr'
         TIMEWARRIOR_ICON               'tw'
         TASKWARRIOR_ICON               'task'
         NIX_SHELL_ICON                 'nix'
@@ -268,6 +273,7 @@ function _p9k_init_icons() {
         HASKELL_ICON                   'hs'
         PACKAGE_ICON                   'pkg'
         JULIA_ICON                     'jl'
+        SCALA_ICON                     'scala'
       )
     ;;
     'awesome-mapped-fontconfig')
@@ -329,6 +335,7 @@ function _p9k_init_icons() {
         LINUX_SABAYON_ICON             "${CODEPOINT_OF_AWESOME_LINUX:+\\u$CODEPOINT_OF_AWESOME_LINUX$s}"
         LINUX_SLACKWARE_ICON           "${CODEPOINT_OF_AWESOME_LINUX:+\\u$CODEPOINT_OF_AWESOME_LINUX$s}"
         LINUX_VOID_ICON                "${CODEPOINT_OF_AWESOME_LINUX:+\\u$CODEPOINT_OF_AWESOME_LINUX$s}"
+        LINUX_ARTIX_ICON               "${CODEPOINT_OF_AWESOME_LINUX:+\\u$CODEPOINT_OF_AWESOME_LINUX$s}"
         SUNOS_ICON                     "${CODEPOINT_OF_AWESOME_SUN_O:+\\u$CODEPOINT_OF_AWESOME_SUN_O }"
         HOME_ICON                      "${CODEPOINT_OF_AWESOME_HOME:+\\u$CODEPOINT_OF_AWESOME_HOME$s}"
         HOME_SUB_ICON                  "${CODEPOINT_OF_AWESOME_FOLDER_OPEN:+\\u$CODEPOINT_OF_AWESOME_FOLDER_OPEN$s}"
@@ -386,6 +393,7 @@ function _p9k_init_icons() {
         LUA_ICON                       'lua'
         PERL_ICON                      'perl'
         NNN_ICON                       'nnn'
+        XPLR_ICON                      'xplr'
         TIMEWARRIOR_ICON               'tw'
         TASKWARRIOR_ICON               'task'
         NIX_SHELL_ICON                 'nix'
@@ -397,6 +405,7 @@ function _p9k_init_icons() {
         HASKELL_ICON                   'hs'
         PACKAGE_ICON                   'pkg'
         JULIA_ICON                     'jl'
+        SCALA_ICON                     'scala'
       )
     ;;
     'nerdfont-complete'|'nerdfont-fontconfig')
@@ -452,6 +461,7 @@ function _p9k_init_icons() {
         LINUX_SABAYON_ICON             '\uF317'$s             # 
         LINUX_SLACKWARE_ICON           '\uF319'$s             # 
         LINUX_VOID_ICON                '\uF17C'               # 
+        LINUX_ARTIX_ICON               '\uF17C'               # 
         LINUX_UBUNTU_ICON              '\uF31b'$s             # 
         LINUX_ICON                     '\uF17C'               # 
         SUNOS_ICON                     '\uF185 '              # 
@@ -459,7 +469,7 @@ function _p9k_init_icons() {
         HOME_SUB_ICON                  '\uF07C'$s             # 
         FOLDER_ICON                    '\uF115'$s             # 
         ETC_ICON                       '\uF013'$s             # 
-        NETWORK_ICON                   '\uF877'$s             # 
+        NETWORK_ICON                   '\uF50D'$s             # 
         LOAD_ICON                      '\uF080 '              # 
         SWAP_ICON                      '\uF464'$s             # 
         RAM_ICON                       '\uF0E4'$s             # 
@@ -513,6 +523,7 @@ function _p9k_init_icons() {
         LUA_ICON                       '\uE620'               # 
         PERL_ICON                      '\uE769'               # 
         NNN_ICON                       'nnn'
+        XPLR_ICON                      'xplr'
         TIMEWARRIOR_ICON               '\uF49B'               # 
         TASKWARRIOR_ICON               '\uF4A0 '              # 
         NIX_SHELL_ICON                 '\uF313 '              # 
@@ -524,6 +535,7 @@ function _p9k_init_icons() {
         HASKELL_ICON                   '\uE61F'               # 
         PACKAGE_ICON                   '\uF8D6'               # 
         JULIA_ICON                     '\uE624'               # 
+        SCALA_ICON                     '\uE737'               # 
       )
     ;;
     'sf-symbols-1')
@@ -824,6 +836,7 @@ function _p9k_init_icons() {
         LINUX_SABAYON_ICON             'sabayon'
         LINUX_SLACKWARE_ICON           'slack'
         LINUX_VOID_ICON                'void'
+        LINUX_ARTIX_ICON               'artix'
         SUNOS_ICON                     'sunos'
         HOME_ICON                      ''
         HOME_SUB_ICON                  ''
@@ -883,6 +896,7 @@ function _p9k_init_icons() {
         LUA_ICON                       'lua'
         PERL_ICON                      'perl'
         NNN_ICON                       'nnn'
+        XPLR_ICON                      'xplr'
         TIMEWARRIOR_ICON               'tw'
         TASKWARRIOR_ICON               'task'
         NIX_SHELL_ICON                 'nix'
@@ -894,6 +908,7 @@ function _p9k_init_icons() {
         HASKELL_ICON                   'hs'
         PACKAGE_ICON                   'pkg'
         JULIA_ICON                     'jl'
+        SCALA_ICON                     'scala'
       )
     ;;
     *)
@@ -916,7 +931,7 @@ function _p9k_init_icons() {
         TEST_ICON                      ''
         TODO_ICON                      '\u2206'               # ∆
         BATTERY_ICON                   '\U1F50B'              # 🔋
-        DISK_ICON                      'hdd' 
+        DISK_ICON                      'hdd'
         OK_ICON                        '\u2714'               # ✔
         FAIL_ICON                      '\u2718'               # ✘
         SYMFONY_ICON                   'SF'
@@ -950,6 +965,7 @@ function _p9k_init_icons() {
         LINUX_SABAYON_ICON             'Sab'
         LINUX_SLACKWARE_ICON           'Sla'
         LINUX_VOID_ICON                'Vo'
+        LINUX_ARTIX_ICON               'Art'
         SUNOS_ICON                     'Sun'
         HOME_ICON                      ''
         HOME_SUB_ICON                  ''
@@ -1009,6 +1025,7 @@ function _p9k_init_icons() {
         LUA_ICON                       'lua'
         PERL_ICON                      'perl'
         NNN_ICON                       'nnn'
+        XPLR_ICON                      'xplr'
         TIMEWARRIOR_ICON               'tw'
         TASKWARRIOR_ICON               'task'
         NIX_SHELL_ICON                 'nix'
@@ -1020,6 +1037,7 @@ function _p9k_init_icons() {
         HASKELL_ICON                   'hs'
         PACKAGE_ICON                   'pkg'
         JULIA_ICON                     'jl'
+        SCALA_ICON                     'scala'
       )
     ;;
   esac
